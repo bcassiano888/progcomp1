@@ -1,0 +1,73 @@
+body{
+font-family:'Times New Roman', Times, serif;
+margin: 0; /* espaçamento externo da página */
+padding: 0; /* espaçamento interno da página */
+background-color: #F4f4f4;
+text-align: center; /* centraliza na horizontal */
+}
+header{
+    background-color: #04AA6D;
+    color: rgb(255, 255, 255);
+    padding: 15px 0px; /* espaçamento interno acima e abaixo e  0 px a direita e a esquerda*/
+    font-size: 24px;
+}
+nav{
+    background-color: #007bff;
+    padding: 10px; /* espaçamento interno do menu*/
+    display: flex; /* flex-boxing*/
+    justify-content: space-between; /* espaço entre os elementos do menu*/
+    align-items: center;
+}
+#links-menu{ /*"#" para div*/
+    display: flex;
+    gap: 30px; /*distancia entre os itens no menu*/
+}
+nav a{ /*configura os itens do menu*/
+    color: white;
+    text-decoration: none;/*nao decora os links*/
+    padding: 10px 15px;
+    background-color: #0056b3;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.container{
+    width: 80%; /*largura de 80% da largura da página*/
+    background-color: rgb(223, 223, 223);
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: justify;
+    
+
+}
+h2{
+    text-align: center;
+}
+img {
+    width: 120px;
+    height: auto;
+    margin-right: 20px; /*espaçamento à direita*/
+    border-radius: 10px;
+}
+
+    
+.botao:hover{ 
+    background-color: #04AA6D; /* Green */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+ol li{
+    padding-bottom: 10px;
+}
+table tr td {
+    padding: 20px;
+}
+
+table{
+    margin: 0 auto;
+}
