@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trote Solidário 2025</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </head>
 <body> 
         <header><!--Cabeçalho do corpo da página-->
@@ -25,6 +25,34 @@
             <img src="images/trote.jpg" alt="Trote Solidario"/>
         </nav>
         <div class = "container">
+            <h2>Calculadoras</h2>
+            <form> <!--botao para calculo-->
+                <div class="campos">
+                    <label> Mascote do Time: </label> 
+                    <input  class="caixa" type="number" id="mascote"/>
+                </div>
+                <div class="campos">
+                    <label> Homenagem a um Atleta</label>
+                    <input class="caixa" type="number" id="homenagem"/>
+                </div>
+                <div class="campos">
+                <label> Doação de Sangue: </label> 
+                    <input  class="caixa" type="number" id="doacao"/>
+                </div>
+                <div class="campos">
+                    <label> Kits: </label> 
+                        <input  class="caixa" type="number" id="kits"/>
+                    </div>
+                </div>
+
+                <div class="campos">
+                    <button type= "button" onclick="calcular()">Calcular</button>
+                </div>
+
+                
+
+
+            </form>
             
          </div>
     
