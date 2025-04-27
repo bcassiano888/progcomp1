@@ -39,7 +39,6 @@
                         </select>
                 </div>
                 <p></p>
-                <div class="calc">
                     <div class="campos">
                         <label> Mascote do Time: </label> 
                         <input  class="caixa" type="number" id="mascote"/>
@@ -60,12 +59,14 @@
                         <label> Suplemento </label>
                         <input class = "caixa" type="number" id="suplemento"/> 
                     </div>
-                </div>
+                    <div class="campos">
+                        <label> Quantidade de Litros de leite </label>
+                        <input class = "caixa" type="number" id="leite"/>
+                    </div>
                 <div class="campos">
                     <button type= "button" onclick="calcular()">Calcular</button>
                 </div>
-                <p id="soma" onclick="calcular()"></p>
-            </div>
+                <label id="soma"> </label>            
             </form>
             
          </div>

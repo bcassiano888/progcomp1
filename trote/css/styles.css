@@ -1,136 +1,91 @@
-body{
-font-family:'Open Sans',sans-serif;
-margin: 0; /* espaçamento externo da página */
-padding: 0; /* espaçamento interno da página */
-background-color: #F4f4f4;
-text-align: center; /* centraliza na horizontal */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* espaçamento externo da página */
+    padding: 0; /* espaçamento interno da página */
+    background-color: #f4f4f4;
+    text-align: center; /* texto centralizado */
 }
-header{
-    background-color: #04AA6D;
-    color: rgb(255, 255, 255);
-    padding: 15px 0px; /* espaçamento interno acima e abaixo e  0 px a direita e a esquerda*/
-    font-size: 24px;
-}
-nav{
-    background-color: #007bff;
-    padding: 10px; /* espaçamento interno do menu*/
-    display: flex; /* flex-boxing*/
-    justify-content: space-between; /* espaço entre os elementos do menu*/
-    align-items: center;
-}
-#links-menu{ /*"#" para div*/
-    display: flex;
-    gap: 30px; /*distancia entre os itens no menu*/
-}
-nav a{ /*configura os itens do menu*/
+header {
+    background-color: #28a745;
     color: white;
-    text-decoration: none;/*nao decora os links*/
-    padding: 10px 15px;
-    background-color: #0056b3;
-    border-radius: 5px;
-    margin-left: 5px;
+    /* 15px (espaçamento interno acima e abaixo) e 0px (direita e esquerda)*/
+    padding: 15px 0px;
+    font-size: 24px; 
 }
-.container{
-    width: 80%; /*largura de 80% da largura da página*/
-    background-color: rgb(223, 223, 223);
-    border-radius: 10px;
-    margin: 20px auto;
-    padding: 20px;
-    text-align: justify;
-    
+nav {
+    background: #007bff;
+    padding: 10px; /* espaçamento interno do menu */
+    display: flex; /* Flex Boxing */
+    justify-content: space-between; /* espaço entre os elementos do menu*/
+    align-items: center; /* alinhamento na vertical */
+}
+#links-menu{
+    display: flex;
+    gap: 20px; /* distância entre os itens do menu*/
+}
+nav a { /* configura os links do menu */
+    color: white;
+    text-decoration: none; /* não decora os links */
+    padding: 10px 15px; /* (10px acima e abaixo) (15px é esquerda e direita)*/
+    font-size: 18px;
+    background: #0056b3;
+    border-radius: 5px; /* cantos arredondados */
+}
 
-}
-h2{
-    text-align: center;
-}
 img {
     width: 120px;
     height: auto;
-    margin-right: 20px; /*espaçamento à direita*/
+    margin-right: 80px; /* espaçamento externo à direita */
     border-radius: 10px;
 }
 
-    
-.botao:hover{ 
-    background-color: #04AA6D; /* Green */
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  transition-duration: 0.4s;
-  cursor: pointer;
-
+.container {
+    width: 80%; /* largura de 80% da largura da página */
+    background: white;
+    border-radius: 10px;
+    /* espaçamento externo 20px acima e abaixo */
+    /* espaçamento externo auto à direita e à esquerda */
+    margin: 20px auto;
+    padding: 20px; /* espaçamento interno */ 
+    text-align: justify;
 }
-ol li{
+h2 {
+    text-align: center;
+}
+
+ol li {
     padding-bottom: 10px;
 }
-table tr td{
-    margin: 0 auto;
-    padding: 10px;
-}
-    
 
+table tr td {
+    padding: 20px;
+}
 
-table{
-    height: 60%;
-    width: 60%;
-    text-align: center;
-    font-weight: bold;
+table {
+    margin: 0 auto; /* centraliza a tabela na página */
 }
-.tabela{
-    margin: 0 auto;
-}
-.cabecalho{
-    background-color: rgb(6, 6, 95);
-    color: white;
 
-}
-.laranja{
+.laranja {
     background-color: orange;
 }
-.preta{
-    background-color: rgb(0, 0, 0);
-    color:white;
+.preta {
+    background-color: black;
+    color: white;
 }
-.vermelha{
-    background-color: red;
-}
-.roxa{
+.roxa {
     background-color: purple;
 }
-.verde{
+.verde {
     background-color: green;
 }
-.ver{
-    color:  red;
+.vermelha {
+    background-color: red;
 }
-h3{
-    text-align: center;
+.azul {
+    background-color: navy;
+    color: white;
 }
-#t2{
-    margin: 0 auto;
-}
-.quadro{
-    width:80vh;
-    height:50vh;
-    border: 1px solid;
-    background-color: #a1b9fc;
-    margin: 20px auto;
-    padding: 20px;
-    text-align: justify;
-    
-}
-.campos{
+
+.campos {
     margin-bottom: 20px;
-}
-.caixa{
-    display: flex;
-    
-}
-#t3{
-    margin: 0 auto;
-}
-#tt3{
-    margin: 0 auto;
-    padding: 2px;
 }
